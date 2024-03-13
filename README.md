@@ -2,7 +2,7 @@
 
 This repository contains the code and resource for the paper:
 
-**Large Language Models Leverage External Knowledge to Extend Clinical Insight Beyond Language Boundaries**
+**[Large Language Models Leverage External Knowledge to Extend Clinical Insight Beyond Language Boundaries](https://arxiv.org/abs/2305.10163)**
 
 **Authors**: Jiageng Wu, Xian Wu, Zhaopeng Qiu, Minghui Li, Yingying Zhang, Yefeng Zheng, Changzheng Yuan, and Jie Yang
 
@@ -32,6 +32,7 @@ Given the question stem and five candidate options, KFE retrieves the relevant k
 
 As show Figure 2 below, (a) list a basic form of prompt that includes the question and options; (b) further includes retrieved related medical knowledge which is in the form of text pieces; (c) includes retrieved pairs of questions and answers as few-shot examples; (d) includes both retrieved knowledge and few-shot examples in prompts.
 ![1710329695723](image/README/1710329695723.png)
+
 <div align='center' >
     <p><strong>
     Figure 2. The integrated prompt of different enhancements in KFE.
@@ -86,7 +87,7 @@ Unlike English, where words are naturally segmented, Chinese texts necessitate w
 
 ### Knowledge Enhancement
 
-Code in /code/Knowledge enhancement/. 
+Code in /code/Knowledge enhancement/.
 
 The notebook directly demonstrates the whole workflow. .
 
