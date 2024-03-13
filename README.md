@@ -6,6 +6,8 @@ This repository contains the code and resource for the paper:
 
 **Authors**: Jiageng Wu, Xian Wu, Zhaopeng Qiu, Minghui Li, Yingying Zhang, Yefeng Zheng, Changzheng Yuan, and Jie Yang
 
+**Formerly named as:** Qualifying Chinese Medical Licensing Examination with Knowledge Enhanced Generative Pre-training Model
+
 ## TL;DR
 
 This framework efficiently enhance LLMS's performance on clinical question by leveraging external medical knowledge and relevant historical questions, enabling various LLMs passing the Chinese National Medical Licensing Examination at high scores.
